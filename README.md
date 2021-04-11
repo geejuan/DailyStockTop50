@@ -6,62 +6,58 @@
 爬取每日A股资金流入Top50的个股数据，包括'代码', '名称', '最新价', '今日涨跌幅', '今日主力净流入', '今日主力占比', '今日超大单净流入', '今日超大单占比', '今日大单净流入', '今日大单占比','今日中单净流入', '今日中单占比', '今日小单净流入', '今日小单占比'。
 数据会被整理后写入以日期命名的csv文件中
 
-![](https://github.com/dbader/readme-template/raw/master/header.png)
+![](https://github.com/geejuan/DailyStockTop50/blob/main/img/Screenshot%202021-04-11%20at%2011.52.18%20PM.png)
 
 ## Getting Started 使用指南
 
-项目使用条件、如何安装部署、怎样运行使用以及使用演示
+**目录：**
+* [0. 目录结构介绍](#menu)
+* [1. 下载&安装](#f1)
+* [2. 配置](#f2)
+* [3. 开始使用](#f3)
 
-### Prerequisites 项目使用条件
 
-你需要安装什么软件以及如何去安装它们。
+
+### 目录介绍
 
 ```
-Give examples
+├── README.md          使用说明，你当前看到的
+├── config.ini         主要配置文件，需要修改这个
+├── images             本文配图存放处
+├── requirements.txt   Python依赖
+└── stocktop50.py      入口文件，运行这个
 ```
 
-### Installation 安装
+### 下载&安装
 
-通过一步步实例告诉你如何安装部署、怎样运行使用。
-
-OS X & Linux:
-
-```sh
-Give the example
+```bash
+git clone https://github.com/geejuan/DailyStockTop50.git
+cd DailyStockTop50
+pip install -r requirements.txt
 ```
 
-Windows:
 
-```sh
-Give the example
-```
+### 配置
 
-### Usage example 使用示例
+编辑修改`config.ini`，按需填写字段即可
+如何获得http请求头？ 请Google/Baidu/Bing
+|必填| 配置项        | 代表含义 | 示例 |
+|----| --------      | -----:   |-----:   | 
+|✅| HEADER     |请求头信息 |Mozilla/5.0 (Macintosh; Intel Mac OS X 11_2_3)…|
 
-给出更多使用演示和截图，并贴出相应代码。
+## 使用
 
-## Deployment 部署方法
+执行`python stocktop50.py`即可完成一次爬取
 
-部署到生产环境注意事项。
-
-## Contributing 贡献指南
-
-Please read [CONTRIBUTING.md](#) for details on our code of conduct, and the process for submitting pull requests to us.
-
-清阅读 [CONTRIBUTING.md](#) 了解如何向这个项目贡献代码
 
 ## Release History 版本历史
 
-* 0.2.1
-    * CHANGE: Update docs
-* 0.2.0
-    * CHANGE: Remove `README.md`
-* 0.1.0
+* 0.0.1
     * Work in progress
 
 ## Authors 关于作者
 
-* **WangYan** - *Initial work* - [WangYan](https://wangyan.org)
+* **Even** - *Initial work* - [Even](geejuanxu@gmail.com)
 
 查看更多关于这个项目的贡献者，请阅读 [contributors](#) 
 
