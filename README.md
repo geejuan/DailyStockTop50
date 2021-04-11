@@ -36,7 +36,7 @@
 
 ### 下载&安装
 
-```bash
+```python
 git clone https://github.com/geejuan/DailyStockTop50.git
 cd DailyStockTop50
 pip install -r requirements.txt
