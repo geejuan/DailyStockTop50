@@ -1,7 +1,7 @@
 # DailyStockTop50
 ![](https://img.shields.io/badge/Python-3.x-blue) ![](https://img.shields.io/badge/license-MIT-green)
 ![](https://img.shields.io/badge/%E5%8F%8D%E9%A6%88-geejuanxu%40gmail.com-red)
-> 实现了什么？
+## 实现了什么？
 
 爬取每日A股资金流入Top50的个股数据，包括'代码', '名称', '最新价', '今日涨跌幅', '今日主力净流入', '今日主力占比', '今日超大单净流入', '今日超大单占比', '今日大单净流入', '今日大单占比','今日中单净流入', '今日中单占比', '今日小单净流入', '今日小单占比'。
 数据会被整理后写入以日期命名的csv文件中
