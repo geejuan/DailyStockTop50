@@ -1,6 +1,12 @@
 # DailyStockTop50
 ![](https://img.shields.io/badge/Python-3.x-blue) ![](https://img.shields.io/badge/license-MIT-green)
 ![](https://img.shields.io/badge/%E5%8F%8D%E9%A6%88-geejuanxu%40gmail.com-red)
+
+> 本项目为一时兴起而写，主要目的是检验近期学习成果，欢迎一切意见和指正。
+* 本项目运行在python环境下
+* [Python 3.9 Win版 官网下载地址](https://www.python.org/ftp/python/3.9.0/python-3.9.0-amd64.exe) 
+* 默认你会安装和使用python，详细方法可自行搜索😝
+
 ## 实现了什么？
 
 爬取每日A股资金流入Top50的个股数据，包括'代码', '名称', '最新价', '今日涨跌幅', '今日主力净流入', '今日主力占比', '今日超大单净流入', '今日超大单占比', '今日大单净流入', '今日大单占比','今日中单净流入', '今日中单占比', '今日小单净流入', '今日小单占比'。
@@ -8,7 +14,7 @@
 
 ![](https://github.com/geejuan/DailyStockTop50/blob/main/img/Screenshot%202021-04-11%20at%2011.52.18%20PM.png)
 
-## Getting Started 使用指南
+## 使用指南
 
 **目录：**
 * [0. 目录结构介绍](#menu)
