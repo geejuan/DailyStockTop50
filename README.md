@@ -5,7 +5,7 @@
 > 本项目为一时兴起而写，主要目的是检验近期学习成果，欢迎一切意见和指正。
 * 本项目运行在python环境下
 * [Python 3.9 Win版 官网下载地址](https://www.python.org/ftp/python/3.9.0/python-3.9.0-amd64.exe) 
-* 默认你会安装和使用python，详细方法可自行搜索😝
+* linux和mac用户默认你会安装和使用python，详细方法可自行搜索😝
 
 ## 实现了什么？
 
